@@ -6,6 +6,9 @@
 a {
   text-decoration: none;
 }
+li {
+  list-style: none;
+}
 /* --------- HEADER ---------- */
 
 .navigation-logo {
@@ -29,8 +32,8 @@ a {
   line-height: 1.14;
   color: var(--main-color);
 }
-.header-list-element:hover,
-.header-list-element:focus {
+.header-list .header-list-element:hover,
+.header-list .header-list-element:focus {
   color: #2196f3;
 }
 .header-address {
@@ -45,6 +48,9 @@ a {
 .header-address-element:hover,
 .header-address-element:focus {
   color: #2196f3;
+}
+.header-address-element {
+  color: #757575;
 }
 /* --------- HERO ---------- */
 .hero {
@@ -123,6 +129,10 @@ a {
   padding: 30px;
 }
 /* --------- FOOTER ---------- */
+.footer {
+  background-color: #2f303a;
+  height: 252px;
+}
 .address {
   width: 231px;
   height: 21px;
@@ -149,6 +159,9 @@ a {
   font-size: 14px;
   line-height: 2;
   color: rgba(255, 255, 255, 0.6);
+}
+.navigation-logo-studio-white {
+  color: #ffffff;
 }
 /* ------------------- PORTFOLIO ------------------- */
 .portfolio-navigation .button:hover,
