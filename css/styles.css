@@ -1,8 +1,10 @@
 :root {
   font-family: "Roboto", Times, serif;
+  --main-color: #212121;
+  --accent-color: #2196f3;
 }
 a {
-  text-decoration-line: none;
+  text-decoration: none;
 }
 /* --------- HEADER ---------- */
 
@@ -13,18 +15,22 @@ a {
   line-height: 1.17;
 }
 .navigation-logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .navigation-logo-studio {
-  color: #000000;
+  color: var(--main-color);
+}
+.header-list {
+  display: inline-block;
 }
 .header-list-element {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: #000000;
+  color: var(--main-color);
 }
-.header-list-element:hover {
+.header-list-element:hover,
+.header-list-element:focus {
   color: #2196f3;
 }
 .header-address {
@@ -33,7 +39,11 @@ a {
   line-height: 1.14;
   color: #757575;
 }
-.header-address-element:hover {
+.header-address {
+  display: inline-block;
+}
+.header-address-element:hover,
+.header-address-element:focus {
   color: #2196f3;
 }
 /* --------- HERO ---------- */
@@ -45,7 +55,8 @@ a {
   text-transform: uppercase;
   color: #ffffff;
   background: #2f303a;
-  block-size: 600px;
+  width: 1600px;
+  height: 600px;
 }
 .button {
   font-weight: bold;
@@ -57,16 +68,20 @@ a {
   text-align: center;
 }
 /* --------- BENEFITS ---------- */
+.benefits-list-item {
+  display: inline-block;
+  padding: 30px;
+}
 .benefits-list-item-header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-color);
 }
 .benefits-list-item-paragraph {
   font-size: 14px;
-  line-height: 0.5;
+  line-height: 2;
   color: #757575;
 }
 /* --------- ACTIVITIES ---------- */
@@ -75,7 +90,11 @@ a {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: #212121;
+  color: var(--main-color);
+}
+.activities-header-list {
+  display: inline-block;
+  padding: 30px;
 }
 /* --------- TEAM ---------- */
 .team-header {
@@ -83,7 +102,7 @@ a {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: #212121;
+  color: var(--main-color);
 }
 .team-list-header {
   font-weight: 500;
@@ -91,7 +110,7 @@ a {
   line-height: 1.19;
   text-align: center;
 
-  color: #212121;
+  color: var(--main-color);
 }
 .team-list-paragraph {
   font-size: 16px;
@@ -99,7 +118,22 @@ a {
   text-align: center;
   color: #757575;
 }
+.team-list-item {
+  display: inline-block;
+  padding: 30px;
+}
 /* --------- FOOTER ---------- */
+.address {
+  width: 231px;
+  height: 21px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+  color: #ffffff;
+}
 .address-list-address {
   font-size: 14px;
   line-height: 2;
@@ -117,7 +151,8 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 /* ------------------- PORTFOLIO ------------------- */
-.portfolio-navigation .button:hover {
+.portfolio-navigation .button:hover,
+.portfolio-navigation .button:focus {
   background: #2196f3;
 }
 .portfolio-navigation li {
@@ -128,17 +163,23 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-
   background: #f5f4fa;
 }
 .portfolio-section h2 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  color: #212121;
+  color: var(--main-color);
 }
 .portfolio-section p {
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
+}
+.portfolio-section li {
+  display: inline-block;
+}
+.portfolio-section li:focus,
+.portfolio-section li:hover {
+  color: #2196f3;
 }
