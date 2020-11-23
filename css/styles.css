@@ -117,12 +117,19 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 /* ------------------- PORTFOLIO ------------------- */
+.portfolio-navigation .button:hover {
+  background: #2196f3;
+}
 .portfolio-navigation li {
+  display: inline-block;
+}
+.portfolio-navigation .button {
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  display: inline-block;
-  color: #ffffff;
+
+  background: #f5f4fa;
 }
 .portfolio-section h2 {
   font-weight: bold;
