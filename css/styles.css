@@ -1,0 +1,118 @@
+:root {
+  font-family: "Roboto", Times, serif;
+}
+a {
+  text-decoration-line: none;
+}
+/* --------- HEADER ---------- */
+
+.navigation-logo {
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.navigation-logo-web {
+  color: #2196f3;
+}
+.navigation-logo-studio {
+  color: #000000;
+}
+.header-list-element {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #000000;
+}
+.header-list-element:hover {
+  color: #2196f3;
+}
+.header-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+.header-address-element:hover {
+  color: #2196f3;
+}
+/* --------- HERO ---------- */
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #2f303a;
+  block-size: 600px;
+}
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  background: #2196f3;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+/* --------- BENEFITS ---------- */
+.benefits-list-item-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+}
+.benefits-list-item-paragraph {
+  font-size: 14px;
+  line-height: 0.5;
+  color: #757575;
+}
+/* --------- ACTIVITIES ---------- */
+.activities-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
+}
+/* --------- TEAM ---------- */
+.team-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
+}
+.team-list-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: #212121;
+}
+.team-list-paragraph {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: #757575;
+}
+/* --------- FOOTER ---------- */
+.address-list-address {
+  font-size: 14px;
+  line-height: 2;
+
+  color: #ffffff;
+}
+.address-list-mail {
+  font-size: 14px;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-list-tel {
+  font-size: 14px;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.6);
+}
